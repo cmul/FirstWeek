@@ -1,5 +1,7 @@
 <resources>
 
     <string name="app_name">First Week</string>
+    <string name="buttonText">Push Me</string>
+    <string name="image_box">Camera Picture</string>
 
 </resources>
