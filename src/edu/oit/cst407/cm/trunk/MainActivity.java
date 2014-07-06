@@ -1,4 +1,4 @@
-package edu.oit.cst407.cm.firstweek;
+package edu.oit.cst407.cm.trunk;
 
 import android.app.Activity;
 import android.content.Intent;

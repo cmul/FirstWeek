@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.oit.cst407.cm.firstweek"
+    package="edu.oit.cst407.cm.trunk"
     android:versionCode="1"
     android:versionName="1.0" >
 	<uses-feature android:name="android.hardware.camera"
