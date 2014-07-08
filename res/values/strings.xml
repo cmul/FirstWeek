@@ -1,7 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <string name="app_name">First Week</string>
-    <string name="buttonText">Push Me</string>
+    <string name="buttonText">Take a Picture</string>
     <string name="image_box">Camera Picture</string>
+    <string name="opinion_landscape">The world looks flat</string>
+    <string name="opinion_portrait">I feel so tall!</string>
+    <string name="textOpinionButton">Start Opinion</string>
+    <string name="title_activity_opinion">OpinionActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
 
 </resources>

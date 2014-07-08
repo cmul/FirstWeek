@@ -12,6 +12,7 @@ import android.widget.ImageView;
 public class MainActivity extends Activity {
 	static final int REQUEST_IMAGE_CAPTURE = 3000; //
 	private Button buttonTakePicture = null;
+	private Button buttonStartOpinion = null;
 	private ImageView myImageView = null;
 	
 	@Override
@@ -21,15 +22,24 @@ public class MainActivity extends Activity {
 		
 		myImageView = (ImageView)findViewById(R.id.imagePhoto); //
 		buttonTakePicture = (Button)findViewById (R.id.buttonSelectImage); //
+		buttonStartOpinion = (Button)findViewById (R.id.buttonBeginOpinion);
 		
 		buttonTakePicture.setOnClickListener(new View.OnClickListener() {
-			
 			@Override
 			public void onClick(View v) {
 				Intent takePictureIntent = new Intent (MediaStore.ACTION_IMAGE_CAPTURE);
 				if(takePictureIntent.resolveActivity(getPackageManager()) != null ) {
 					startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
 				}
+			}
+		});
+		buttonStartOpinion.setOnClickListener(new View.OnClickListener() {	
+			@Override
+			public void onClick(View v) {
+				//if (v == buttonStartOpinion) {
+				Intent opinionIntent = new Intent(MainActivity.this, OpinionActivity.class);
+				startActivity(opinionIntent);
+				//}
 			}
 		});
 	}

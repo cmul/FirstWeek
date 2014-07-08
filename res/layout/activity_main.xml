@@ -7,7 +7,7 @@
     <TextView
         android:id="@+id/textView1"
         android:layout_width="match_parent"
-        android:layout_height="101sp"
+        android:layout_height="49dp"
         android:gravity="center"
         android:text="@string/app_name"
         android:textSize="20sp"
@@ -18,6 +18,8 @@
         android:id="@+id/imagePhoto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
         android:contentDescription="@string/image_box"
         android:scaleType="fitXY"
         android:src="@drawable/ic_no_pic" />
@@ -26,7 +28,17 @@
         android:id="@+id/buttonSelectImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
         android:text="@string/buttonText" />
 
-</LinearLayout>
+    <Button
+        android:id="@+id/buttonBeginOpinion"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="@string/textOpinionButton" />
 
+</LinearLayout>
